@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Kei Motors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><span class="emblem">K</span> Kei Motors</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="showroom.html">Showroom</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container page-padding">
+        <h1 class="page-title reveal">Secure Your Private Viewing</h1>
+        
+        <div class="contact-wrapper reveal">
+            <div class="contact-info">
+                <h3>Corporate Details</h3>
+                <p><strong>Location:</strong> Kampala, Uganda</p>
+                <p><strong>Phone:</strong> +256 781 174419</p>
+                <p><strong>Email:</strong> kei_estates@gmail.com</p>
+                <p><em>Operating strictly by private executive appointment.</em></p>
+            </div>
+
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully to Kei Motors!');">
+                <input type="text" placeholder="Your Full Name" required>
+                <input type="email" placeholder="Your Email Address" required>
+                <textarea rows="5" placeholder="Which model or asset configuration are you inquiring about?" required></textarea>
+                <button type="submit" class="gold-btn">Submit Inquiry</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kei Motors. Kampala, Uganda.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
